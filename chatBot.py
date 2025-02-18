@@ -23,3 +23,4 @@ chain = prompt | llm | output_parser
 
 if user_input_txt:
     st.write(chain.invoke({"query": user_input_txt}))
+    
